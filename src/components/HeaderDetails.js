@@ -11,6 +11,7 @@ export default function HeaderDetails() {
             alt="Logo" 
             width={18} 
             height={20} 
+            className=' mr-2'
         />
         <p>1234, Adedoyin Cresent, Obalende, Lagos, Nigeria</p>
         </div>

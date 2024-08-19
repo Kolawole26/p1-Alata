@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function Navigation() {
     return (
-        <div className=' flex items-center justify-between relative bg-white rounded-b-lg py-4 px-4'>
+        <div className=' flex items-center justify-between relative bg-white rounded-b-lg py-2 px-4'>
         <nav className=''>
         <ul className=' flex items-center'>
             <li className=' p-1 mr-4'>
