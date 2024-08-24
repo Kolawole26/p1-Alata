@@ -16,7 +16,7 @@ export default function HeaderDetails() {
         <p>1234, Adedoyin Cresent, Obalende, Lagos, Nigeria</p>
         </div>
         <h1 className=" text-white uppercase mb-8 font-amatic font-bold text-[70px] text-center">
-        Experience a Masterpiece with every dish at <span className=' text-custom-red'>ALATA </span>
+        Experience a Masterpiece with every dish at <span className=' text-custom-red text-stroke-left-white'>ALATA </span>
         </h1>
         <p className=' text-xl text-white max-w-[695px] mb-16 mx-auto'>Indulge in a Symphony of Flavours Crafted with Passion and Precision, Where Each Bite Tells a Story of Artistry and Innovation.</p>
         <div className=' flex justify-center'>
