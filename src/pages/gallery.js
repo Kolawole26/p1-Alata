@@ -53,6 +53,7 @@ export default function Gallery() {
               layout="fill" // Make image fill its container
               objectFit="cover" // Ensure the image covers the div without being stretched
               className="rounded-lg shadow-md cursor-pointer"
+              loading="lazy" // Lazy loading attribute
             />
           </div>
         ))}
