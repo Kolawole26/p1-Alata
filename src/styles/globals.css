@@ -10,13 +10,14 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
 
-.header {
+/* .header {
   @apply bg-cover bg-center  relative;
   background-image: url('/images/hero.jpg');
-}
+} */
 
 /* Custom CSS for text stroke */
 .text-stroke-left-white {
   text-shadow: -3px 0 white;
 
 }
+
