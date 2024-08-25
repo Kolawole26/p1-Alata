@@ -4,12 +4,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../components/Button';
 import Form from '../components/Form';
+import Footer from '@/components/Footer';
 
 export default function ContactUs() {
   return (
-    <main className='bg-custom-off-white'>
+    <main className='bg-custom-off-white px-40'>
       <SEO title="Contact Us Page" description="Welcome to the homepage of My Website, where you can find amazing content." />
-      <div className="relative w-full px-40 pb-32 ">
+      <div className="relative w-full pb-32 ">
         <Navigation backgroundColor="bg-black"/>
         <div className='relative'>
                 <div className=' mb-24'>
@@ -96,6 +97,7 @@ export default function ContactUs() {
             </div>
             </div>
         </div>
+        {/* <Footer backgroundColor="bg-custom-gray-3"/> */}
     </main>
   );
 }
